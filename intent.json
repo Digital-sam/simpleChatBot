@@ -1,0 +1,22 @@
+{ "intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey", "hi", "good day","good"],
+  "responses":["Hello","Hey", "what can i do for yo mahn"]
+  },
+  {"tag": "goodbye",
+  "patterns": ["odabo","goodbye", "I am leaving", "I'm going now","that will be all for now"],
+  "responses":["talk to see you later","sad to let you go", "fuck man, you, gat leave me here?"]
+  },
+  {"tag": "name",
+  "patterns": ["what is your name","what can i call you?", "you are?", "who are you?","I can call you what?"],
+  "responses":["I'm Ola's AI","i'm an assistant", "ola's bitch"]
+  },
+  {"tag": "task",
+  "patterns": ["check my mail","can you check my email?"],
+  "responses":["checking your mail....you do not have any mail"]
+  },
+  {"tag": "job",
+  "patterns": ["what do you do?","whats your job", "why are you here?", "whats your purpose","why are you working for him?"],
+  "responses":["I'm an assistant","i work for Ola", "i do things","I check emails"]
+  }
+]}
